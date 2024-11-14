@@ -104,6 +104,6 @@ Route::screen('/examples/cards', ExampleCardsScreen::class)->name('platform.exam
 
 Route::screen('report-campañas', LayoutReportCampañas::class)->name('platform.screens.reportCampañas')->breadcrumbs(fn(Trail $trail) => $trail
     ->parent('platform.index')
-    ->push('Example Screen')); 
+    ->push('Reporte de campañas')); 
 
 //Route::screen('idea', Idea::class, 'platform.screens.idea');
